@@ -1,0 +1,258 @@
+main{
+height: auto;
+width: 100%;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#Kontaktinformasjon{
+    margin: 1.5rem;
+
+}
+
+#Kontaktinformasjon h1{
+    margin: 10px;
+
+}
+
+#Kontaktinformasjon p{
+   color: rgb(145, 145, 145);
+
+}
+
+.ks{
+    background-color: rgb(245, 245, 245);
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+/* kontakt oss section design */
+
+#kontakt-oss-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#text-section{
+    width: 50%;
+    background-color: rgb(250, 250, 250);
+    padding: 30px 30px;
+  
+
+
+}
+
+#map-section{
+    width: 50%;
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+#forOgEtterNavn{
+    display: flex;
+    flex-direction: row;
+   
+  
+}
+
+#forOgEtterNavn div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+#Fnavn{
+    width: 90%;
+}
+
+#Enavn{
+  width: 100%;
+}
+
+input[type=text],textarea, input[type=email]{
+    width: 100%;
+    padding: 17px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+
+   
+  }
+
+
+  input[type=submit] {
+    width: 20%;
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+
+
+
+
+
+/* card desing */
+
+
+#child-cards-section{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+  
+   
+}
+
+.card{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 37vh;
+    margin: 0 50px;
+    box-shadow: 10px 10px 24px -7px rgba(0,0,0,0.1);
+    border-radius: 13px;
+
+
+}
+
+.card-info{
+
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+
+
+
+.card:hover{
+    border-radius: 8px;
+    box-shadow: 12px 6px 50px -8px rgba(0,0,0,0.1);    
+}
+
+.card-info figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+   
+}
+
+
+
+.card-info h2{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.card-info p{
+
+    color: #a5a5a5;
+    text-align: center;
+    padding: 0 50px;
+    
+}
+.card-info a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    border: solid 1px rgb(0, 0, 0);
+    padding: 10px 10px;
+    border-radius: 19px;
+    width: 30%;
+    text-align: center;
+    margin: 0 115px;
+
+} 
+
+
+/* Det er drop list design */
+
+.list:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  
+  
+  .list{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(241, 241, 241);
+      color: #444;
+      padding: 4px 20px;
+      width: 30%;
+      font-size: 15px;
+      transition: 0.4s;
+      margin: 10px 0;
+      border-radius:8px;
+  
+  }
+  
+  .active, .list:hover {
+    background-color: #ccc; 
+  }
+  
+  
+  .panel {
+  
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    width: 30%;
+  }
+  
+  #parent{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  
+  }

@@ -1,0 +1,125 @@
+.parent-art{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: #f5f5f5;
+
+
+
+}
+
+.parent-art article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 65%;
+}
+
+.parent-art article h2{
+
+    width: 100%;
+    font-size: 25px;
+    margin: 1rem 1rem;
+
+}
+
+.parent-art article h1{
+    margin-top: 3rem;
+    width: 100%;
+    font-size: 40px;
+}
+
+.parent-art article p{
+    line-height: 1.6;
+    color: rgb(110, 110, 110);
+}
+
+
+
+.parent-art article figure{
+    width: 100%;
+    margin: 0;
+
+}
+
+.parent-art article figure img{
+    width: 100%;
+
+}
+
+#cms-hedear{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    grid-area: header;
+    /* Bildet som er brukt er designet selv i Canva.com */
+    background-image: url(../bilder/cms-header.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 86vh;
+
+}
+
+#uu-vs-seo-hedear{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    grid-area: header;
+    /* Bildet som er brukt er designet selv i Canva.com */
+    background-image: url(../bilder/uu-vs-seo.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    height: 86vh;
+
+}
+
+#last-ljein{
+    padding-bottom: 10rem;
+}
+
+.cms-ul{
+    margin: 0;
+
+}
+
+.cms-ul ul{
+
+    padding-left: 20px;
+
+}
+
+.cms-ul li{
+    margin: 20px;
+    color: rgb(110, 110, 110);
+
+    
+}
+
+.parent-art article figure{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+.parent-art article figure img{
+    width: 40%;
+}
+
+.span-title{
+    color: rgb(139, 121, 37);
+}
+
+.kilde-a{
+    padding-left: 20px;
+}
