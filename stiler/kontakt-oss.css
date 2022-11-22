@@ -140,7 +140,7 @@ input[type=text],textarea, input[type=email]{
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 37vh;
+    height:75%;
     margin: 0 50px;
     box-shadow: 10px 10px 24px -7px rgba(0,0,0,0.1);
     border-radius: 13px;
@@ -152,6 +152,10 @@ input[type=text],textarea, input[type=email]{
 
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     
 }
@@ -168,14 +172,14 @@ input[type=text],textarea, input[type=email]{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
+    
    
 }
 
 
 
 .card-info h2{
-    padding-top: 10px;
+    
     text-align: center;
     color: rgb(0, 0, 0);
 
@@ -198,7 +202,6 @@ input[type=text],textarea, input[type=email]{
     border-radius: 19px;
     width: 30%;
     text-align: center;
-    margin: 0 115px;
 
 } 
 
