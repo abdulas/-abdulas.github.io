@@ -309,7 +309,6 @@ footer ul li a{
     color: rgb(177, 177, 177);
     text-decoration: none;
 
-
 }
 
 footer p{
@@ -467,6 +466,16 @@ footer p{
 
     #text-box p {
         width: 80%;
+    }
+    header {
+
+        /* Bildet som er brukt er designet selv i Canva.com */
+        background-image: url(../bilder/header_image.png);
+        background-size: cover;
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+
     }
 
 }
