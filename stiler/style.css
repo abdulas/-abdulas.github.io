@@ -458,23 +458,36 @@ footer p{
 @media only screen and (max-width: 716px){
 
     #text-box {
-        margin: 2rem;   
-        height: 65%;
-        width: 80%;
+        margin: 1.6rem;
+        width: 90%;
+        height: 50%;
     }
 
 
     #text-box p {
-        width: 80%;
+        width: 90%;
     }
-    header {
 
-        /* Bildet som er brukt er designet selv i Canva.com */
-        background-image: url(../bilder/header_image.png);
-        background-size: cover;
+    #text-box h1{
+        font-size: 35px;
+ 
+    } 
+
+    #text-box a {
+        display: inline-block;
+        border: solid 1px black;
+        text-decoration: none;
+        padding: 13px;
+        width: 75%;
+        text-align: center;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        margin: 20px 0 0 25px;
+    }
+
+    header {
         background-size: 1000px;
-        background-repeat: no-repeat;
-        /* background-attachment: fixed; */
 
     }
 
