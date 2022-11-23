@@ -86,22 +86,23 @@ header {
 #text-box {
     /* z-index: 1; */
     /* position: fixed; */
-    margin: 7rem;
+    margin: 3.5rem;
     padding: 5px;
     background-color: rgba(235, 235, 235, 0.356);
-    height: 26rem;
     border-radius: 13px;
+    height: 65%;
+
 }
 
-#text-box h1 {
+#text-box h1{
+
     font-family: 'Anton', sans-serif;
     font-weight: 1000;
-    width: 400px;
     font-size: 35px;
     line-height: 55px;
     font-size: 40px;
     font-weight: bold;
-    letter-spacing: 7px;
+    letter-spacing: 6px;
     margin: 25px;
 }
 
@@ -122,7 +123,7 @@ header {
     color: white;
     background-color: black;
     border-radius: 10px;
-    margin: 50px 0 0 25px;
+    margin: 20px 0 0 25px;
 }
 
 
@@ -288,7 +289,6 @@ footer section a{
 
 }
 
-
 footer ul{
     display: flex;
     flex-direction: row;
@@ -318,6 +318,14 @@ footer p{
 }
 
 
+
+
+
+
+
+
+
+
 /* Article section responsivt */
 
 @media only screen and (max-width: 1113px){
@@ -343,57 +351,131 @@ footer p{
 
   }
 
-  @media only screen and (max-width: 915px){
+@media only screen and (max-width: 915px){
 
-    .article-carts{
-        width: 48%;
-        
-    }
+.article-carts{
+    width: 48%;
     
-    #article-section {
-        margin: 0;
-        padding: 0;
+}
+
+#article-section {
+    margin: 0;
+    padding: 0;
+
+}
+
+}
+
+@media only screen and (max-width: 619px){
+
+#parent-article-section{
+    margin: 0;
+}
+
+.article-carts{
+    width: 90%;
     
-    }
+}
 
-  }
+#article-section {
+    margin: 0 0 20px 40px;
 
-  @media only screen and (max-width: 619px){
+
+}
+}
+
+
+@media only screen and (max-width: 500px){
 
     #parent-article-section{
         margin: 0;
     }
 
     .article-carts{
-        width: 90%;
+        width: 100%;
+        margin: 0 0 30px 0;
         
     }
     
     #article-section {
-        margin: 0 0 20px 40px;
-   
+        margin: 0 15px 20px 15px;
+    
     
     }
 
-    
-
-    @media only screen and (max-width: 500px){
-
-        #parent-article-section{
-            margin: 0;
-        }
-    
-        .article-carts{
-            width: 100%;
-            margin: 0 0 30px 0;
-            
-        }
-        
-        #article-section {
-            margin: 0 15px 20px 15px;
-       
-        
-        }
-    
-      }
     }
+
+
+
+
+
+
+
+
+/* Det er nav og heder responsivt */
+
+@media only screen and (max-width: 726px){
+    nav ul{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 863px){
+
+    #text-box {
+        margin: 3rem;
+        height: 72%;
+        width: 70%;
+    }
+
+    #text-box h1{
+        font-size: 35px;
+    }
+    
+    #text-box p {
+        width: 60%;
+    }
+
+
+}
+
+@media only screen and (max-width: 716px){
+
+    #text-box {
+        margin: 3rem;
+        padding: 5px;
+        background-color: rgba(235, 235, 235, 0.356);
+        border-radius: 13px;
+        height: 72%;
+        width: 70%;
+    }
+
+    #text-box h1{
+        font-size: 30px;
+ 
+    }  
+}
+
+@media only screen and (max-width: 716px){
+
+    #text-box {
+        margin: 2rem;   
+        height: 65%;
+        width: 80%;
+    }
+
+
+    #text-box p {
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
