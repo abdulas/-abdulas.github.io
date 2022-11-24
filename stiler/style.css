@@ -142,42 +142,31 @@ main {
 
 #kontakt-oss {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
 }
 
 #kontakt-oss-text-section {
-    padding: 0 0 0 35px;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    justify-content: flex-start;
-}
-
-.h2-1{
-    display: block;
-    
-    
-}
-
-.h2-2{
-    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 35px;
+    width: 50%;
 }
 
 #kontakt-oss-text-section p {
     width: 100%;
     color: #777777;
-    line-height: 35px;
+    line-height: 30px;
 }
 
-#kontakt-oss-text-section h2 {
+#kontakt-oss h2{
     font-size: 30px;
+    background-color:rgb(243, 243, 243);
+    width: 100%;
 }
-
-
 
 #kontakt-oss-text-section a {
     display: inline-block;
@@ -185,32 +174,17 @@ main {
     border: solid 1px black;
     text-decoration: none;
     padding: 15px 50px 15px 50px;
-    width: 18%;
+    width: 60%;
     text-align: center;
     color: white;
     background-color: black;
     border-radius: 10px;
 }
 
-#kontakt-oss figure {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 60%;
-    height: 100%;
-}
-
-#kontakt-oss figure img {
-    width: 100%;
-
-}
-
 /* Article section */
 
 #parent-article-section {
-    margin: 0 0 40px 0; 
-
+    margin: 0 0 40px 0;
 }
 
 #article-section {
@@ -257,8 +231,8 @@ article h3 {
     border-radius: 10px;
 }
 
-article p {
-    margin-left: 20px;
+.article-carts p {
+    padding: 0 17px;
     color: rgb(117, 117, 117);
 }
 
@@ -350,15 +324,13 @@ footer p{
     #article-section {
         margin: 0;
         padding: 0;
-    
     }
-
   }
 
 @media only screen and (max-width: 915px){
 
 .article-carts{
-    width: 48%;
+    width: 45%;
     
 }
 
@@ -370,7 +342,9 @@ footer p{
 
 }
 
-@media only screen and (max-width: 619px){
+
+
+@media only screen and (max-width: 657px){
 
 #parent-article-section{
     margin: 0;
@@ -444,6 +418,7 @@ footer p{
 
 
 
+
 @media only screen and (max-width: 716px){
 
     #text-box {
@@ -497,86 +472,40 @@ footer p{
 
 /* det er kontakt oss responsivt */
 
-@media only screen and (max-width: 793px){
-    #kontakt-oss figure {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        width: 80%;
-        height: 100%;
-    }
 
-    #kontakt-oss-text-section a {
-        display: inline-block;
-        margin-top: 15px;
-        border: solid 1px black;
-        text-decoration: none;
-        padding: 15px 70px 15px 70px;
-        width: 18%;
-        text-align: center;
-        color: white;
-        background-color: black;
-        border-radius: 10px;
-    }
-
-    #kontakt-oss-text-section p {
-        width: 100%;
-        color: #777777;
-        line-height: 29px;
-    }
-}
-
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 878px){
 
     #kontakt-oss {
-        display: flex;
-        flex-direction: column-reverse;
-        height: 100%;
         width: 100%;
-        background-color: rgb(248, 248, 248);
-       
     }
-
-
-    #kontakt-oss-text-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-        margin: 20px 0 20px 0;
-
+    
+    #kontakt-oss-text-section {
+        width: 80%;
     }
-    #kontakt-oss-text-section p{
-        text-align: center;
-
+    
+    
+    #kontakt-oss h2{
+        font-size: 30px;
+        background-color:rgb(243, 243, 243);
+        width: 100%;
     }
-
-    .h2-2{
-        display: block;
-        
-    }
-    .h2-1{
-        display: none;
-        
-    }
-
+    
     #kontakt-oss-text-section a {
         margin-top: 30px;
-        padding: 15px 70px 15px 70px;
-        width: 18%;
-
+        width: 50%;
     }
 
-    
-
-       
-
-   
-
-
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
