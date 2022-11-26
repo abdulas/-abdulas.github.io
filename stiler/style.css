@@ -285,7 +285,7 @@ footer{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 40vh;
+    height: auto;
 }
 
 footer section{
@@ -487,8 +487,7 @@ footer p{
  }
 
 }
-/* 
-den er ferdig ikke rør den */
+
 @media only screen and (max-width: 490px){
 
     #parent-article-section{
@@ -507,13 +506,14 @@ den er ferdig ikke rør den */
 
     header{
         background-image: none;
-        height: 46vh;
+        height: auto;
     }
 
     #kontakt-oss {
        padding: 30px 0 30px 0;
        margin: 1rem;
        width: 95%;
+       height: auto;
     }
     
     #kontakt-oss-text-section {
@@ -536,7 +536,17 @@ den er ferdig ikke rør den */
         margin-top: 30px;
         padding: 15px 20px 15px 20px;
         width: 70%;
+    }
 
+    #text-box{
+        width: 100%;
+        height: auto;
+        margin: 10px;    
+    }
+
+    #text-box a{
+
+        margin: 30px 0 30px 28px;
     }
 
     }
