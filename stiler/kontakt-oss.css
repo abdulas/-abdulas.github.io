@@ -7,7 +7,7 @@ width: 100%;
 html {
     scroll-behavior: smooth;
 }
-#Kontaktinformasjon{
+/* #Kontaktinformasjon{
     margin: 1.5rem;
 
 }
@@ -27,12 +27,23 @@ html {
     border-radius: 12px;
     padding: 10px;
     margin: 10px;
-}
+} */
 
 
 
 
 /* kontakt oss section design */
+
+#parent-cards-section{
+    height: 100%;
+    width: 100%;
+}
+
+#parent-cards-section h2{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
 
 #kontakt-oss-section{
     height: 100%;
@@ -53,7 +64,8 @@ html {
 
 #map-section{
     width: 50%;
-
+    height: 100%;
+   
 }
 
 
@@ -160,9 +172,6 @@ input[type=text],textarea, input[type=email]{
     
 }
 
-
-
-
 .card:hover{
     border-radius: 8px;
     box-shadow: 12px 6px 50px -8px rgba(0,0,0,0.1);    
@@ -176,15 +185,12 @@ input[type=text],textarea, input[type=email]{
    
 }
 
-
-
 .card-info h2{
     
     text-align: center;
     color: rgb(0, 0, 0);
 
 }
-
 .card-info p{
 
     color: #a5a5a5;
@@ -203,59 +209,125 @@ input[type=text],textarea, input[type=email]{
     width: 30%;
     text-align: center;
 
-} 
+}
+
+@media only screen and (max-width: 982px){
+
+    #kontakt-oss-section{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #text-section{
+        width: 90%;
+    }
+    
+    #map-section{
+        width: 96%;
+        height: 60vh;
+       
+    }
+
+}
+
+@media only screen and (max-width: 1189px){
+
+#parent-cards-section{
+
+    margin: 0;
+    padding: 0;
+}
+
+#child-cards-section{
+    width: 100%;
+    height: 60vh;
+}
+
+.card{
+    width: 40%;
+    margin: 0 15px 0 10px;
 
 
-/* Det er drop list design */
 
-.list:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2212";
-  }
-  
-  
-  
-  .list{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      background-color: rgb(241, 241, 241);
-      color: #444;
-      padding: 4px 20px;
-      width: 30%;
-      font-size: 15px;
-      transition: 0.4s;
-      margin: 10px 0;
-      border-radius:8px;
-  
-  }
-  
-  .active, .list:hover {
-    background-color: #ccc; 
-  }
-  
-  
-  .panel {
-  
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    width: 30%;
-  }
-  
-  #parent{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-  
-  }
+}
+.card-info{
+    height: 100%;
+    width: 100%;
+}
+
+.card-info p{
+    padding: 0 30px;
+}
+.card-info a{
+    padding: 10px 10px;
+    width: 37%;
+}
+}
+
+@media only screen and (max-width: 754px){
+
+    .card-info p{
+        padding: 0 10px;
+    }
+
+    .card{
+        background-color: #fafafa;
+        width: 30%;
+        gap: 10px;
+        margin: 0 10px 0 10px;
+    }
+    .card-info a{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 703px){
+
+    #parent-cards-section{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #child-cards-section{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+       
+    }
+
+    #parent-cards-section h2{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0 0 0;
+
+
+       
+    }
+    .card{
+        background-color: #fafafa;
+        flex-direction: column;
+        width: 70%;
+        margin: 30px 0 20px 0;
+        margin-bottom: 50px;
+        
+    }
+    .card-info{
+        width: 100%;
+        padding: 30px 0 30px 0;
+    }
+
+    .card-info p{
+        padding: 0 20px;
+    }
+}
+    
+
+
