@@ -340,7 +340,6 @@ footer p{
 
 @media only screen and (max-width: 733px){
 
-
     .toggle-button{
         display: flex;
         top: 2rem;
@@ -387,39 +386,10 @@ footer p{
 
     }
 
-
-
-}
-
-
-/* Det er heder responsivt */
-
-@media only screen and (max-width: 863px){
-
-    #text-box {
-        margin: 3rem;
-        height: 72%;
-        width: 70%;
-    }
-
-    #text-box h1{
-        font-size: 35px;
-    }
-    
-    #text-box p {
-        width: 60%;
-    }
-
-
-}
-
-
-@media only screen and (max-width: 716px){
-
     #text-box {
         margin: 1.6rem;
         width: 90%;
-        height: 60%;
+        
     }
     #text-box h1{
         font-size: 35px;
@@ -428,23 +398,52 @@ footer p{
         width: 90%;
     }
 
-    header {
-        background-size: 1000px;
-    }
-
 }
 
+
+
+/* Mobil small */
  @media only screen and (max-width: 499px){
 
     #text-box {
-        margin: 0.6rem;
+        margin: 0.8rem;
         width: 90%;
-        height: 50%;
+        height: 82%;
     }
 
     #text-box a {
         width: 75%;
     }
+
+    header{
+        height: 50vh;
+    }
+
+    #kontakt-oss {
+        margin: 1rem;
+        padding: 0 40px 40px 0;
+        
+    }
+    
+    #kontakt-oss-text-section {
+        width: 80%;
+    }
+    
+    
+    #kontakt-oss h2{
+        font-size: 30px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    #kontakt-oss-text-section a {
+        padding: 15px 50px;
+        width: 70%;
+    }
+
+
 }
 
 
@@ -463,14 +462,6 @@ footer p{
     }
 
 }
-
-@media only screen and (max-width: 1050px){
-    
-    #article-section {
-        margin: 0;
-        padding: 0;
-    }
-  }
 
 @media only screen and (max-width: 915px){
 
@@ -524,34 +515,12 @@ footer p{
         margin: 0 15px 20px 15px;
     }
 
+    header{
+        background-image: none;
+        height: 46vh;
     }
 
-/* det er kontakt oss responsivt */
-
-
-@media only screen and (max-width: 878px){
-
-    #kontakt-oss {
-        width: 100%;
-        margin: 0;
     }
-    
-    #kontakt-oss-text-section {
-        width: 80%;
-    }
-    
-    
-    #kontakt-oss h2{
-        font-size: 30px;
-        background-color:rgb(243, 243, 243);
-        width: 100%;
-    }
-    
-    #kontakt-oss-text-section a {
-        margin-top: 30px;
-        width: 60%;
-    }
-}
 
 
 
