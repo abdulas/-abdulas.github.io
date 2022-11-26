@@ -171,11 +171,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:rgb(243, 243, 243);
+    background-color:rgb(245, 245, 245);
    padding: 10px 0 50px 0;
    border-radius:12px;
-   margin: 2rem;
-   box-shadow: -3px 10px 15px -3px rgba(0, 0, 0, 0.1);
+   height: 60vh;
+  
 }
 
 #kontakt-oss-text-section {
@@ -185,6 +185,7 @@ main {
     align-items: center;
     padding: 0 0 0 35px;
     width: 50%;
+   
 }
 
 #kontakt-oss-text-section p {
@@ -195,9 +196,8 @@ main {
 
 #kontakt-oss h2{
     font-size: 30px;
-    background-color:rgb(243, 243, 243);
-    width: 90%;
-    border-radius: 12px;
+    width: 100%;
+    text-align: center;
 }
 
 #kontakt-oss-text-section a {
@@ -402,51 +402,6 @@ footer p{
 
 
 
-/* Mobil small */
- @media only screen and (max-width: 499px){
-
-    #text-box {
-        margin: 0.8rem;
-        width: 90%;
-        height: 82%;
-    }
-
-    #text-box a {
-        width: 75%;
-    }
-
-    header{
-        height: 50vh;
-    }
-
-    #kontakt-oss {
-        margin: 1rem;
-        padding: 0 40px 40px 0;
-        
-    }
-    
-    #kontakt-oss-text-section {
-        width: 80%;
-    }
-    
-    
-    #kontakt-oss h2{
-        font-size: 30px;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        
-    }
-    
-    #kontakt-oss-text-section a {
-        padding: 15px 50px;
-        width: 70%;
-    }
-
-
-}
-
-
 
 /* Article section responsivt */
 
@@ -487,19 +442,54 @@ footer p{
 }
 
 .article-carts{
-    width: 90%;
+    width: 100%;
     
 }
-
 #article-section {
-    margin: 0 0 20px 40px;
+    margin: 0 10px 20px 10px;
+}
+#kontakt-oss {
+    padding: 30px 0 30px 0;
+    margin: 1rem;
+    width: 95%;
+ }
+ 
+ #kontakt-oss-text-section {
+     padding: 20px 0;
+     width: 100%;
+ }
+ 
+ #kontakt-oss-text-section p {
+     width: 85%;
+    
+ }
+ 
+ #kontakt-oss h2{
+     font-size: 30px;
+     width: 100%;
+     text-align: center;
+ }
+ 
+ #kontakt-oss-text-section a {
+     margin-top: 30px;
+     padding: 15px 20px 15px 20px;
+     width: 70%;
 
+ }
+
+ header{
+    
+     height: 70vh;
+ }
+
+ #text-box{
+     height: 80%;
+ }
 
 }
-}
-
-
-@media only screen and (max-width: 500px){
+/* 
+den er ferdig ikke rør den */
+@media only screen and (max-width: 490px){
 
     #parent-article-section{
         margin: 0;
@@ -518,6 +508,35 @@ footer p{
     header{
         background-image: none;
         height: 46vh;
+    }
+
+    #kontakt-oss {
+       padding: 30px 0 30px 0;
+       margin: 1rem;
+       width: 95%;
+    }
+    
+    #kontakt-oss-text-section {
+        padding: 20px 0;
+        width: 100%;
+    }
+    
+    #kontakt-oss-text-section p {
+        width: 85%;
+       
+    }
+    
+    #kontakt-oss h2{
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #kontakt-oss-text-section a {
+        margin-top: 30px;
+        padding: 15px 20px 15px 20px;
+        width: 70%;
+
     }
 
     }
