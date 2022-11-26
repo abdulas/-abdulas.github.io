@@ -23,12 +23,14 @@
     <meta name="twitter:title" content="Salha.no">
     <meta name="twitter:description" content="Prosjekt i webutvikling ved Høyskolen i Østfold. Artikkel om Cms, Analyse, Søkemotoroptimalisering og universel utformining.">
     <meta name="twitter:image" content="https://salha.no/bilder/hav_med_fjel.jpg">
+    
 
     <title>Hjemme side</title>
     <link rel="stylesheet" href="stiler/style.css">
     <script src="https://kit.fontawesome.com/2696d4a144.js" crossorigin="anonymous"></script>
-    <script src="./JS/menu.js"></script>
     <link rel="icon" href="bilder/salha.jpg">
+    <script src="./js/script.js" defer></script>
+    
 
 </head>
 
@@ -37,23 +39,30 @@
     <div id="grid_container">
 
         <!--Her er nav-baren -->
-
         <nav>
+   
             <!-- logoen er desegnet selv i canva.com -->
             <figure style="margin: 10px;">
                 <a href="index.html">
                     <img style="width: 120px;" src="bilder/pixler_logo.png" alt="Logo">
                 </a>
             </figure>
-
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
             <ul>
                 <li> <a href="index.html">Hjem</a></li>
                 <li> <a href="html-sider/cms.html">CMS</a></li>
                 <li> <a href="html-sider/Analyse.html">Analyse</a></li>
                 <li> <a href="html-sider/UU-vs-SEO.html">UU vs SEO</a></li>
-                <li> <a href="html-sider/kontakt-oss.html">Kontakt oss</a></li>
+                <li> <a class="last-child" href="html-sider/kontakt-oss.html">Kontakt oss</a></li>
             </ul>
-        </nav>
+          </div>
+        </nav> 
+
 
         <!--Her hederen med et bilde, overskrift og tekst-->
         <header>
@@ -89,7 +98,6 @@
                     <p>
                         It is a long established fact that a reader will be distracted by the readable content. It is a long established fact that a reader will be distracted by the readable content.
                         It is a long established fact that a reader will be distracted by the readable content. It is a long established fact that a reader will be distracted by the readable content.
-
                     </p>
 
 
@@ -204,17 +212,8 @@
                 
                 var x = document.getElementById("demo");
                 x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
-            </script>
-           
-            
+            </script>    
         </footer>
-
-
-
     </div>
-
-
-
-
 </body>
 </html>
