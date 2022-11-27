@@ -4,23 +4,30 @@
     align-items: center;
     height: auto;
     background-color: #f5f5f5;
-
-
-
 }
 
 .parent-art article{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 65%;
+    width: 55%;
 }
 
-.parent-art article h2{
-
+.parent-art article h3{
     width: 100%;
-    font-size: 25px;
-    margin: 1rem 1rem;
+    font-size: 21px;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.parent-art article h4{
+    display: block;
+    width: 100%;
+    font-size: 21px;
+    margin: 20px 0;
+    color: rgb(110, 110, 110);
 
 }
 
@@ -121,7 +128,8 @@
 }
 
 .kilde-a{
-    padding-left: 20px;
+    color: black;
+    
 }
 
 
@@ -349,7 +357,43 @@ h4{
  } 
 
 
+ @media only screen and (max-width: 1201px){
 
+    .parent-art article{
+
+        width: 75%;
+    }
+    
+ }
+
+ @media only screen and (max-width: 636px){
+
+    .parent-art article{
+
+        width: 85%;
+    }
+
+    .parent-art article h3{
+
+        text-decoration: none;
+        line-height: 1.4;
+ 
+    }
+
+    .parent-art article h3{
+
+        text-decoration: none;
+        line-height: 1.4;
+ 
+    }
+    
+    .parent-art article h4{
+
+        text-decoration: none;
+        
+ 
+    }
+ }
 
 
 
