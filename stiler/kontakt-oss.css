@@ -7,30 +7,6 @@ width: 100%;
 html {
     scroll-behavior: smooth;
 }
-/* #Kontaktinformasjon{
-    margin: 1.5rem;
-
-}
-
-#Kontaktinformasjon h1{
-    margin: 10px;
-
-}
-
-#Kontaktinformasjon p{
-   color: rgb(145, 145, 145);
-
-}
-
-.ks{
-    background-color: rgb(245, 245, 245);
-    border-radius: 12px;
-    padding: 10px;
-    margin: 10px;
-} */
-
-
-
 
 /* kontakt oss section design */
 
@@ -328,6 +304,8 @@ input[type=text],textarea, input[type=email]{
         padding: 0 20px;
     }
 }
+
+
     
 
 
