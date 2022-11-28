@@ -95,28 +95,30 @@ html {
 
 }
 
+/* header */
+
+
 header {
     display: flex;
+    width: 100%; 
     flex-direction: row;
     background-color: rgb(255, 255, 255);
     grid-area: header;
-    /* Bildet som er brukt er designet selv i Canva.com */
-    background-image: url(../bilder/header_image.png);
+    /* Photo by <a href="https://unsplash.com/@magicpattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">MagicPattern</a> on <a href="https://unsplash.com/backgrounds/colors/gradient?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+    background-image: url(../bilder/gradient.jpg);
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     height: 86vh;
+   
 }
 
 #text-box {
-    /* z-index: 1; */
-    /* position: fixed; */
     margin: 3.5rem;
     padding: 5px;
     background-color: rgba(235, 235, 235, 0.356);
     border-radius: 13px;
-    height: 65%;
+    height: 56%;
 
 }
 
@@ -506,12 +508,16 @@ footer p{
  }
 
  header{
-    
-     height: 70vh;
- }
+    height: auto;
+    background-image: url(../bilder/cms-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ 
 
  #text-box{
-     height: 80%;
+     height: 86%;
  }
 
 }
@@ -532,8 +538,11 @@ footer p{
         margin: 0 15px 20px 15px;
     }
 
-    header{
-        background-image: none;
+    header {
+        /* Photo by <a href="https://unsplash.com/@magicpattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">MagicPattern</a> on <a href="https://unsplash.com/backgrounds/colors/gradient?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+        background-image: url(../bilder/gradient.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         height: auto;
     }
 
