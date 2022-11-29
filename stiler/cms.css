@@ -1,3 +1,12 @@
+header {
+    /* bilden er designt selv i canva.com */
+    background-image: url(../bilder/cms-header.png);
+}
+
+#ext-box p{
+    color:white;
+}
+
 .parent-art{
     display: flex;
     flex-direction: column;
@@ -269,14 +278,6 @@
 h4{
     display: none;
 }
-
-
-
-
-
-
-
-
 
 
 

@@ -105,7 +105,7 @@ header {
     background-color: rgb(255, 255, 255);
     grid-area: header;
     /* Photo by <a href="https://unsplash.com/@magicpattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">MagicPattern</a> on <a href="https://unsplash.com/backgrounds/colors/gradient?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-    background-image: url(../bilder/gradient.jpg);
+    background-image: url(../bilder/header_image.png);
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -174,9 +174,9 @@ main {
     justify-content: center;
     align-items: center;
     background-color:rgb(245, 245, 245);
-   padding: 10px 0 50px 0;
-   border-radius:12px;
-   height: 60vh;
+    padding: 10px 0 50px 0;
+    border-radius:12px;
+    height: 60vh;
   
 }
 
@@ -402,9 +402,6 @@ footer p{
 
 }
 
-
-
-
 /* Article section responsivt */
 
 @media only screen and (max-width: 1113px){
@@ -447,8 +444,6 @@ footer p{
 }
 
 }
-
-
 
 @media only screen and (max-width: 657px){
 
@@ -509,7 +504,6 @@ footer p{
 
  header{
     height: auto;
-    background-image: url(../bilder/cms-header.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -538,17 +532,9 @@ footer p{
         margin: 0 15px 20px 15px;
     }
 
-    header {
-        /* Photo by <a href="https://unsplash.com/@magicpattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">MagicPattern</a> on <a href="https://unsplash.com/backgrounds/colors/gradient?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-        background-image: url(../bilder/gradient.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: auto;
-    }
-
     #kontakt-oss {
-       padding: 30px 0 30px 0;
-       margin: 1rem;
+        padding: 0;
+        margin: 10px;
        width: 95%;
        height: auto;
     }

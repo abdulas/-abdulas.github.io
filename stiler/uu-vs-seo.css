@@ -1,3 +1,8 @@
+header{
+    /* Bildet er tatt av <a href="https://pixabay.com/no/users/kevinking-289243/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=423857">Kevin King(Chandana Perera)</a> fra <a href="https://pixabay.com/no//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=423857">Pixabay</a> */
+    background-image: url(../bilder/social-media.jpg);
+    
+}
 .containe {
     display: grid;
     grid-template-columns: 100px 1fr 1fr;
@@ -9,6 +14,14 @@
     width: 100%;
     height: 100%;
     grid-gap: 2px;
+}
+#text-box p{
+    color: rgb(0, 0, 0);
+    
+}
+
+#text-box{
+    background-color:rgba(255, 255, 255, 0.712) ;
 }
 #parent {
     display: flex;
