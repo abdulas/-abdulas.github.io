@@ -4,6 +4,7 @@
 
 * {
     font-family: Roboto;
+    font-display: swap;
 
 }
 
@@ -11,6 +12,7 @@
 
 body {
     margin: 0;
+
 
 }
 
@@ -105,7 +107,7 @@ header {
     background-color: rgb(255, 255, 255);
     grid-area: header;
     /* Photo by <a href="https://unsplash.com/@magicpattern?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">MagicPattern</a> on <a href="https://unsplash.com/backgrounds/colors/gradient?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-    background-image: url(../bilder/header_image.png);
+    background-image: url(../bilder/header_image.jpg);
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;

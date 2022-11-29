@@ -78,7 +78,7 @@ header{
     background-color: rgb(255, 255, 255);
     grid-area: header;
     /* Bildet som er brukt er designet selv i Canva.com */
-    background-image: url(../bilder/cms-header.png);
+    background-image: url(../bilder/cms-header.jpg);
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@ header{
     background-color: rgb(255, 255, 255);
     grid-area: header;
     /* Bildet som er brukt er designet selv i Canva.com */
-    background-image: url(../bilder/uu-vs-seo.png);
+    background-image: url(../bilder/uu-vs-seo.jpg);
     background-size: cover;
     background-size: 100%;
     background-repeat: no-repeat;
