@@ -203,7 +203,7 @@ input[type=text],textarea, input[type=email]{
 
 @media only screen and (max-width: 982px){
 
-    #kontakt-oss-section{
+    #kontakt-ossSection{
         height: 100%;
         width: 100%;
         display: flex;
@@ -259,23 +259,7 @@ input[type=text],textarea, input[type=email]{
 }
 }
 
-@media only screen and (max-width: 754px){
-
-    .card-info p{
-        padding: 0 10px;
-    }
-
-    .card{
-        background-color: #fafafa;
-        width: 30%;
-        gap: 10px;
-        margin: 0 10px 0 10px;
-    }
-    .card-info a{
-        width: 40%;
-    }
-}
-@media only screen and (max-width: 703px){
+@media only screen and (max-width: 858px){
 
     #parent-cards-section{
         width: 100%;
