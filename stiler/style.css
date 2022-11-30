@@ -66,7 +66,7 @@ nav figure a img{
 .navbar-links ul {
     display: flex;
     padding: 0;
-    margin: 0;
+    margin: 0 25px 0 0;
     box-sizing: border-box;
 }
 
@@ -201,7 +201,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 0 0 35px;
     width: 50%;
 }
 
@@ -266,7 +265,6 @@ main {
 .article-carts:hover {
     box-shadow: none;
     background-color: rgba(77, 169, 230, 0.13);
-    /* transform: rotateX(2deg) rotateY(10deg) rotateZ(1deg); */
     box-shadow: 25px 7px 21px -3px rgba(0,0,0,0.1);
     
 }

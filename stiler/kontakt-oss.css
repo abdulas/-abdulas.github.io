@@ -182,7 +182,8 @@ input[type=text],textarea, input[type=email]{
 }
 .card-info p{
 
-    color: #a5a5a5;
+    /* color: #a5a5a5; */
+    color: black;
     text-align: center;
     padding: 0 50px;
     line-height: 2;
