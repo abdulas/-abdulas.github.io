@@ -34,6 +34,7 @@
     <script src="/js/script.js" defer></script>
     <!-- Denne er hentet fra https://sharethis.com for Share Buttons. -->
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=63866e6bb92caa0012f80add&product=inline-share-buttons' async='async'></script>
+    <script src="../js/uuButtons.js" defer></script>
 
 
 </head>
@@ -167,6 +168,39 @@
 
             </section>
 
+            <div class="ins">
+                <i  id="myBtn" class="fas fa-cog instilinger"></i>
+
+                <a href="#grid_container">
+                <i style="font-size: 14px;" class="fas fa-arrow-circle-up instilinger"></i>
+                </a>
+            </div>
+        
+            
+            
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            
+              <!-- Modal content -->
+              <div class="modal-content">
+                  <section id="close-section">
+                    <span class="close">&times;</span>
+                  </section>
+               
+                <section id="knaper">
+            
+                    <h2>UU instilinger</h2>
+                    <p>Vansklig å se?</p>
+                    <button class="kanp-style" onclick="knap1()" >Stor text</button>
+                    <p>Liten text?</p>
+                    <button class="kanp-style" onclick="knap2()" >Liten tekst</button>
+                    <p>Er du fargeblind?</p>
+                    <button class="kanp-style" onclick="knap3()" >Contrastet bilder</button>
+                    <button class="kanp-style" onclick="knap4()" >Riset alle instilingene</button>
+               </section>
+              </div>
+            
+            </div>
 
 
         </main>
