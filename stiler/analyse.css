@@ -358,10 +358,6 @@ header{
     grid-area: div21;
     
 }
-.div22{
-    grid-area: div22;
-    
-}
 
 
 
@@ -377,7 +373,7 @@ h4{
          display: grid;
          gap: 20px;
          grid-template-columns: 1fr;
-         grid-template-rows: 60px 1fr 1fr auto 60px 1fr 1fr auto 60px  1fr 1fr auto;
+         grid-template-rows: 60px 1fr 1fr auto 60px 1fr 1fr auto 60px 1fr 1fr auto 60px 1fr 1fr auto 60px 1fr 1fr auto;
          grid-template-areas: 
 
          "cms1"
@@ -395,6 +391,16 @@ h4{
          "div13"
          "div14"
          "div15"
+
+         "cms4"
+         "div16"
+         "div17"
+         "div18"
+
+         "cms5"
+         "div19"
+         "div20"
+         "div21"
  
          ;
  
@@ -433,6 +439,16 @@ h4{
        
     }
     .cms3{
+        background-color: rgb(43, 43, 43);
+        
+    }
+
+    .cms4{
+        background-color: rgb(43, 43, 43);
+        
+    }
+
+    .cms5{
         background-color: rgb(43, 43, 43);
         
     }
