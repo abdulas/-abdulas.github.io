@@ -17,9 +17,6 @@ header{
     align-items: center;
     height: auto;
     background-color: #f5f5f5;
-
-
-
 }
 
 .parent-art article{
@@ -34,9 +31,15 @@ header{
     font-size: 21px;
     margin: 20px 0;
     color: rgb(0, 0, 0);
-    text-decoration: underline;
-    text-underline-offset: 10px;
 }
+
+.parent-art article p a{
+
+    color: black;
+
+}
+
+
 
 .parent-art article h4{
     display: block;
@@ -59,17 +62,25 @@ header{
 }
 
 
+.image-section{
 
-.parent-art article figure{
     width: 100%;
-    margin: 0;
+    height: auto;
 
 }
 
-.parent-art article figure img{
+.image-section figure{
     width: 100%;
+    margin: 20px 0;
 
 }
+
+
+.image-section figure img{
+    width: 50%;
+    height: auto;
+}
+
 
 #cms-hedear{
 
@@ -115,19 +126,6 @@ header{
     color: #505050;
 }
 
-.parent-art article figure{
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
-
-}
-.parent-art article figure img{
-    width: 40%;
-}
 
 .span-title{
     color: rgb(139, 121, 37);
@@ -176,4 +174,278 @@ header{
  
     }
  }
+
+
+
+
+
+
+
+ .containe {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    " . fordeler ulemper likheter-ulikheter"
+    "cms1 div7 div8 div9" 
+    "cms2 div10 div11 div12"
+    "cms3 div13 div14 div15"
+    "cms4 div16 div17 div18"
+    "cms5 div19 div20 div21"
+    ;
+    
+    width: 100%;
+    height: 100%;
+    grid-gap: 2px;
+}
+
+
+
+
+ #parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+
+}
+
+#parent h1{
+    margin: 3rem 0;
+
+}
+.cms1 {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    grid-area: cms1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.cms2 {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    grid-area: cms2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.cms3 {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    grid-area: cms3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cms4{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    grid-area: cms4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.cms5{
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    grid-area: cms5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.fordeler {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    grid-area: fordeler;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.ulemper {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    grid-area: ulemper;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.likheter-ulikheter {
+    background-color: rgb(247, 247, 247);
+    grid-area: likheter-ulikheter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.c{
+    background-color: rgb(247, 247, 247);
+}
+
+.div-p{
+    margin: 15px;
+    line-height: 1.6;
+    color: #505050;
+}
+.div7 {
+    grid-area: div7;
+   
+}
+.div8 {
+    grid-area: div8;
+}
+.div9 {
+    grid-area: div9;
+}
+.div10 {
+    grid-area: div10; 
+}
+.div11 {
+    grid-area: div11;
+}
+.div12 {
+    grid-area: div12;
+}
+.div13 {
+    grid-area: div13;
+}
+.div14 {
+    grid-area: div14;
+}
+.div15 {
+    grid-area: div15;
+}
+
+.div16{
+    grid-area: div16;
+
+}
+.div17{
+    grid-area: div17;
+    
+}
+.div18{
+    grid-area: div18;
+    
+}
+.div19{
+    grid-area: div19;
+    
+}
+.div20{
+    grid-area: div20;
+    
+}
+.div21{
+    grid-area: div21;
+    
+}
+.div22{
+    grid-area: div22;
+    
+}
+
+
+
+h4{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .containe {
+         display: grid;
+         gap: 20px;
+         grid-template-columns: 1fr;
+         grid-template-rows: 60px 1fr 1fr auto 60px 1fr 1fr auto 60px  1fr 1fr auto;
+         grid-template-areas: 
+
+         "cms1"
+         "div7"
+         "div8"
+         "div9"
+
+         "cms2"
+         "div10"
+         "div11"
+         "div12"
+
+
+         "cms3"
+         "div13"
+         "div14"
+         "div15"
+ 
+         ;
+ 
+     } 
+
+
+     .fordeler {
+         display: none;
+     }
+ 
+     
+     .ulemper {
+
+         display: none;
+
+     }
+ 
+     .likheter-ulikheter {
+         display: none;
+     }
+
+     h4{
+         margin: 12px;
+         display: block;
+         color: rgb(0, 0, 0);
+         text-decoration-line: underline; 
+         font-size: 18px;
+    }
+
+    .cms1{
+        background-color: rgb(43, 43, 43);
+        border-radius:13px;
+    }
+    .cms2{
+        background-color: rgb(43, 43, 43);
+       
+    }
+    .cms3{
+        background-color: rgb(43, 43, 43);
+        
+    }
+
+    h3{
+        color: rgb(253, 253, 253);
+    }
+
+    .shadow {
+        box-shadow: 8px 13px 15px -4px rgba(0,0,0,0.1);
+        border-radius:13px;
+    }
+
+
+ } 
 
