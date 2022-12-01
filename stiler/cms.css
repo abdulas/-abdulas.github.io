@@ -65,6 +65,28 @@ header {
 
 }
 
+.parent-art ul{
+    padding-left: 0;
+}
+.parent-art ul li{
+    margin: 20px;
+    color: #505050;
+}
+
+.parent-art article figure{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+
+}
+.parent-art article figure img{
+    width: 40%;
+}
+
 #cms-hedear{
 
     display: flex;
@@ -99,27 +121,6 @@ header {
 
 #last-ljein{
     padding-bottom: 10rem;
-}
-.parent-art ul{
-    padding-left: 0;
-}
-.parent-art ul li{
-    margin: 20px;
-    color: #505050;
-}
-
-.parent-art article figure{
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
-
-}
-.parent-art article figure img{
-    width: 40%;
 }
 
 .span-title{
