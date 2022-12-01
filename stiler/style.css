@@ -175,10 +175,6 @@ main {
 /* kontakt oss section */
 
 #kontakt-oss-section{
-    background-image: url(/bilder/kontakt.jpg);
-    background-size: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 }
@@ -190,11 +186,10 @@ main {
     align-items: center;
     padding: 10px 0 50px 0;
     border-radius:12px;
-    background-color: rgba(253, 253, 253, 0.562);
+    background-color: rgb(0, 0, 0);
     margin: 30px;
     
 }
-
 
 #kontakt-oss-text-section {
     display: flex;
@@ -206,7 +201,7 @@ main {
 
 #kontakt-oss-text-section p {
     width: 100%;
-    color: #505050;
+    color: #ffffff;
     line-height: 30px;
     font-weight: 900;
     text-align: center;
@@ -216,7 +211,7 @@ main {
     font-size: 30px;
     width: 100%;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #kontakt-oss-text-section a {
@@ -226,10 +221,9 @@ main {
     padding: 15px 50px 15px 50px;
     width: 50%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 10px;
-    background-color: black;
-   
+    background-color: rgb(255, 255, 255); 
 }
 
 /* Article section */
