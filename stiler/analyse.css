@@ -198,13 +198,16 @@ header{
 }
 
 .containe div figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 
 }
 
 .containe div figure img{
-
     width: 90%;
-    
 }
 
 
