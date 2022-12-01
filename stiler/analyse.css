@@ -55,7 +55,7 @@ header{
 
 .parent-art article p{
     line-height: 1.6;
-    color: rgb(110, 110, 110);
+    color: #505050;
 }
 
 
@@ -107,22 +107,12 @@ header{
     padding-bottom: 10rem;
 }
 
-.cms-ul{
-    margin: 0;
-
+.parent-art ul{
+    padding-left: 0;
 }
-
-.cms-ul ul{
-
-    padding-left: 20px;
-
-}
-
-.cms-ul li{
+.parent-art ul li{
     margin: 20px;
-    color: rgb(110, 110, 110);
-
-    
+    color: #505050;
 }
 
 .parent-art article figure{

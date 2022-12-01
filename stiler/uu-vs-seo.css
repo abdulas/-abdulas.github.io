@@ -103,7 +103,7 @@ header{
 .div-p{
     margin: 15px;
     line-height: 1.6;
-    color: rgb(88, 88, 88);
+    color: #505050;
 }
 .div7 {
     grid-area: div7;
@@ -195,7 +195,7 @@ h4{
 
 .parent-art article p{
     line-height: 1.6;
-    color: rgb(110, 110, 110);
+    color: #505050;
 }
 
 
@@ -247,24 +247,12 @@ h4{
     padding-bottom: 10rem;
 }
 
-
-
-.cms-ul{
-    margin: 0;
-
+.parent-art ul{
+    padding-left: 0;
 }
-
-.cms-ul ul{
-
-    padding-left: 20px;
-
-}
-
-.cms-ul li{
+.parent-art ul li{
     margin: 20px;
-    color: rgb(141, 87, 17);
-
-    
+    color: #505050;
 }
 
 .parent-art article figure{

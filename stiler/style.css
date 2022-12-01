@@ -147,7 +147,7 @@ header {
 #text-box p {
     width: 500px;
     line-height: 30px;
-    color: rgb(78, 78, 78);
+    color: #505050;
     margin: 25px;
 }
 
@@ -206,7 +206,7 @@ main {
 
 #kontakt-oss-text-section p {
     width: 100%;
-    color: #000000;
+    color: #505050;
     line-height: 30px;
     font-weight: 900;
     text-align: center;
@@ -289,7 +289,7 @@ article h3 {
 
 .article-carts p {
     padding: 0 17px;
-    color: rgb(78, 78, 78);
+    color: #505050;
 }
 
 .article-carts figure {
@@ -330,7 +330,7 @@ footer section a{
 
     padding: 12px;
     margin: 10px;
-    color: rgb(78, 78, 78);
+    color: #505050;
     border: solid 1px rgb(78, 78, 78);
     border-radius: 50%;
 
