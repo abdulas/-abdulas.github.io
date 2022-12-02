@@ -297,7 +297,7 @@ article h3 {
 
 .article-carts figure img{
     width: 90%;
-    height: auto;
+    height: 250px;
     border-radius: 12px;
 }
 /*footer*/
@@ -526,7 +526,7 @@ footer p{
 }
 
 #kontakt-oss-text-section{
-    width: 100%;
+    width: 90%;
     
 }
 
@@ -560,9 +560,7 @@ footer p{
     }
 
     #kontakt-oss-text-section{
-        width: 100%;
-        
-
+        width: 84%;
     }
     }
 

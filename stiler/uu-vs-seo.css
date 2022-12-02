@@ -141,6 +141,24 @@ h4{
 }
 
 
+.delings-knaper{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
+
+.delings-knaper a{
+    padding: 20px 30px 20px 0;
+    
+}
+
+.delings-knaper a i{
+    color: black;
+}
 
 
 
@@ -174,8 +192,7 @@ h4{
     font-size: 21px;
     margin: 20px 0;
     color: rgb(0, 0, 0);
-    text-decoration: underline;
-    text-underline-offset: 10px;
+
 }
 
 .parent-art article h4{
@@ -322,11 +339,8 @@ h4{
      h4{
          margin: 12px;
          display: block;
-         color: rgb(136, 124, 86);
-         text-decoration-line: underline; 
+         color: black;
       
-     
-   
     }
 
     .cms1{
